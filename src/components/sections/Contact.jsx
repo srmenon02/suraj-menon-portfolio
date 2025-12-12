@@ -58,7 +58,7 @@ export const Contact = () => {
                             required
                             value={formData.email}
                             className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/2"
-                            placeHolder="example@gmail.com"
+                            placeHolder="example@email.com"
                             onChange={(e) => setFormData({...formData, email: e.target.value})}
                         />
                     </div>
