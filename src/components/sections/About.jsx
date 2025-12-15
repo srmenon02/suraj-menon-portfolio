@@ -71,28 +71,29 @@ export const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                     <h3 className="text-xl font-bold mb-4"> Education</h3>
-                    <ul className="list-disc list-inside text-gray-300 space-y-2">
-                        <li>
-                            <strong> M.S.E in Advanced Medical Product Engineering and Development </strong>  University of Michigan-Ann Arbor (2024-2025)
-                            
+                    <ul className="list-disc list-inside text-gray-300 space-y-2 ">
+                        <li className="text-gray-300 marker:text-blue-500">
+                            <div className="font-bold text-blue-500"> <strong> M.S.E in Advanced Medical Product Engineering and Development </strong> </div>
+                            <div> University of Michigan-Ann Arbor (2024-2025) </div>
                         </li>
-                        <li>
-                            <div><strong> B.S.E in Biomedical Engineering </strong></div>
-                            <div><strong><i>Minor in Computer Science, Multidiscplinary Design</i></strong></div>
+                        <li className="text-gray-300 marker:text-blue-500">
+                            <div className="font-bold text-blue-500"><strong> B.S.E in Biomedical Engineering </strong></div>
+                            <div className="font-semibold text-blue-500"><strong><i>Minor in Computer Science, Multidiscplinary Design</i></strong></div>
                             <div>University of Michigan-Ann Arbor (2020-2024)</div>
                         </li>
                     </ul>
                     <ul className="list-none list-inside text-gray-300 mt-8">
                         <li>
-                            Relevant Coursework: Biomedical Instrumentation and Design, Artificial Intelligence and Machine Learning, Biostatistics
+                            <div className="font-semibold text-blue-500">Relevant Coursework:</div>
+                            <div>Biomedical Instrumentation and Design, Artificial Intelligence and Machine Learning, Biostatistics</div>
                         </li>
                     </ul>
                 </div>
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                     <h3 className="text-xl font-bold mb-4"> Work Experience</h3>
-                    <div className="space-y-4 text-gray-300">
+                    <div className="space-y-4 text-gray-300 ">
                         <div>
-                            <h4 className="font-semibold">
+                            <h4 className="font-bold text-blue-500 bg-blue-500/10">
                                 Software Development Engineer at BD (2025-present)
                             </h4>
                             <p>
@@ -101,7 +102,7 @@ export const About = () => {
                         </div>
 
                         <div>
-                            <h4 className="font-semibold">
+                            <h4 className="font-bold text-blue-500 bg-blue-500/10">
                                 Software Engineer at CHEPS (2024-2025)
                             </h4>
                             <p>
@@ -111,7 +112,7 @@ export const About = () => {
                         </div>
 
                         <div>
-                            <h4 className="font-semibold">
+                            <h4 className="font-bold text-blue-500 bg-blue-500/10">
                                 Research Assistant at the UMich Systems Biology Lab(2021-2025)
                             </h4>
                             <p>
@@ -121,7 +122,7 @@ export const About = () => {
                         </div>
 
                         <div>
-                            <h4 className="font-semibold">
+                            <h4 className="font-bold text-blue-500 bg-blue-500/10">
                                 Manufacturing Intern at P&G (2023)
                             </h4>
                             <p>
