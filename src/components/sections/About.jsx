@@ -134,7 +134,7 @@ export const About = () => {
             </div>
             <div className="flex justify-center mt-8">
                 <a 
-                    href="/suraj-menon-portfolio/Files/resume.pdf" 
+                    href="/suraj-menon-portfolio/Files/Suraj_Menon_Resume.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-blue-500 to-cyan-400 text-white py-3 px-8 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] inline-flex items-center gap-2"
