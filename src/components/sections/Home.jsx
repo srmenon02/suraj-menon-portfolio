@@ -30,6 +30,17 @@ export const Home = () => {
                     Contact Me
                 </a>
             </div>
+
+            <div className="mt-12 tb-6 flex justify-center">
+                <div className="relative group">
+                    <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div>
+                    <img 
+                        src="/suraj-menon-portfolio/Files/headshot.jpg" 
+                        alt="Suraj Menon" 
+                        className="relative w-48 h-48 rounded-full object-cover border-4 border-blue-500/30 shadow-xl hover:scale-105 transition-transform duration-300"
+                    />
+                </div>
+            </div>
         </div>
         </RevealOnScroll>
     </section>

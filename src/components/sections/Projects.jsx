@@ -105,7 +105,7 @@ export const Projects = () => {
                     </div>
 
                     <div className="flex justify-center gap-4 items-center  mt-2">
-                        <a href="Files/INPA_S24_Poster.pdf" className="text-blue-400 hover:text-blue-300 transition-colors">
+                        <a href="/suraj-menon-portfolio/Files/INPA_S24_Poster.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
                             Poster
                         </a>
                     </div>
@@ -128,7 +128,7 @@ export const Projects = () => {
                     </div>
 
                     <div className="flex justify-center gap-4 items-center  mt-2">
-                        <a href="Files/NPD_Report.pdf" className="text-blue-400 hover:text-blue-300 transition-colors">
+                        <a href="/suraj-menon-portfolio/Files/NPD_Report.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
                             Report
                         </a>
                     </div>
@@ -151,7 +151,7 @@ export const Projects = () => {
                     </div>
 
                     <div className="flex justify-center gap-4 items-center mt-2">
-                        <a href="Files/Final_Assembled_DHF.pdf" className="text-blue-400 hover:text-blue-300 transition-colors">
+                        <a href="/suraj-menon-portfolio/Files/Final_Assembled_DHF.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
                             Design History File
                         </a>
                     </div>
