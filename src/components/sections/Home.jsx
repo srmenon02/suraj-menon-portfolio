@@ -1,5 +1,6 @@
 import { RevealOnScroll } from "../ReviewOnScroll"
-import { GradientText } from "../GradientText";
+import { GradientText } from "../GradientText"
+
 
 
 export const Home = () => {
