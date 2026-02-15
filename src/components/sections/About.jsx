@@ -73,13 +73,13 @@ export const About = () => {
                     <h3 className="text-xl font-bold mb-4"> Education</h3>
                     <ul className="list-disc list-inside text-gray-300 space-y-2 ">
                         <li className="text-gray-300 marker:text-blue-500">
-                            <div className="font-bold text-blue-500"> <strong> M.S.E in Advanced Medical Product Engineering and Development </strong> </div>
-                            <div> University of Michigan-Ann Arbor (2024-2025) </div>
+                            <span className="font-bold text-blue-500">M.S.E in Advanced Medical Product Engineering and Development</span>
+                            <span className="block text-gray-300">University of Michigan-Ann Arbor (2024-2025)</span>
                         </li>
                         <li className="text-gray-300 marker:text-blue-500">
-                            <div className="font-bold text-blue-500"><strong> B.S.E in Biomedical Engineering </strong></div>
-                            <div className="font-semibold text-blue-500"><strong><i>Minor in Computer Science, Multidiscplinary Design</i></strong></div>
-                            <div>University of Michigan-Ann Arbor (2020-2024)</div>
+                            <span className="font-bold text-blue-500">B.S.E in Biomedical Engineering</span>
+                            <span className="block text-blue-500 font-semibold"><i>Minor in Computer Science, Multidisciplinary Design</i></span>
+                            <span className="block text-gray-300">University of Michigan-Ann Arbor (2020-2024)</span>
                         </li>
                     </ul>
                     <ul className="list-none list-inside text-gray-300 mt-8">
